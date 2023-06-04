@@ -1,0 +1,23 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: repeat(4, 40px);
+    background-color: green;
+    color: white;
+    text-align: center;
+}
+.border{
+    padding-top: 7px;
+    border-bottom: 5px solid orange;
+    border-right: 1px solid orange;
+}
+.four{
+    grid-column: span 4;
+}
+.eight{
+    grid-column: span 8;
+}
+.twelve{
+    padding-top: 7px;
+    grid-column: span 12;
+}
